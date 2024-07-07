@@ -6,6 +6,14 @@ has the given number added to it.
 
 // Your code here 
 
+function additionMutator(array, num){
+
+    for(let i=0; i<array.length; i++){
+        array[i]=array[i]+num
+    }
+    return array
+}
+
 
 // let nums1 = [3, 7, 1, 2];
 // let nums2 = additionMutator(nums1, 4);

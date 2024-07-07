@@ -4,6 +4,13 @@ array but every element of the array is multiplied by 2.
 */
 
 // Your code here 
+function doubler(array){
+
+    for(let i=0; i<array.length; i++){
+        array[i]=array[i]*2
+    }
+    return array
+}
 
 // let nums1 = [1, 2, 3, 4];
 // let doubled1 = doubler(nums1)
