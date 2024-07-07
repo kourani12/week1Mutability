@@ -6,6 +6,18 @@ max.
 
 // Your code here 
 
+function evenNumbers(max){
+    let array = []
+
+    for(let i=1; i<max; i++){
+        if(i%2===0){
+            array.push(i)
+        }
+    }
+
+    return array 
+}
+
 
 // console.log(evenNumbers(7));  // [ 2, 4, 6 ]
 // console.log(evenNumbers(12)); // [ 2, 4, 6, 8, 10 ]
