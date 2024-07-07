@@ -6,6 +6,12 @@ that are divisible by either 4 or 6, but not both.
 
 // Your code here 
 
+function pitPat(max){
+
+    let array = []
+    not both !
+}
+
 
 // console.log(pitPat(18)); // [ 4, 6, 8, 16, 18 ]
 // console.log(pitPat(30)); // [ 4, 6, 8, 16, 18, 20, 28, 30 ]
