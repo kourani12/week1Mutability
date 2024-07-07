@@ -8,6 +8,14 @@ removed from the array. See test cases for examples.
 
 // Your code here 
 
+function removeElements(array,index, removed){
+    if(index>array.length || index<0){
+        return []
+    }
+    array.splice(index,removed)
+    return array
+}
+
 
 // console.log(removeElements([1, 2, 3], 1, 1));       // [1, 3]
 // console.log(removeElements([1, 2, 3], 1, 2));       // [1]
